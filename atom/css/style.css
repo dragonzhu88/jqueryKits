@@ -1,0 +1,16 @@
+body {
+  background: #4a4a4a;
+  overflow: hidden;
+}
+
+canvas {
+  bottom: 0;
+  box-shadow: 0 0 0 10px #efeff4;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
