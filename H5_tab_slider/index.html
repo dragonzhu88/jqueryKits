@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=5.0" charset="UTF-8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<title>jQuery手机端左右滑动切换表单代码 - xw素材网</title>
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" type="text/css" href="css/addpolicy.css">
+<link rel="stylesheet" type="text/css" href="css/font.css">
+<link rel="stylesheet" href="css/swiper-3.3.1.min.css" />
+<script type="text/javascript" src="js/Libs/jquery.min.js" ></script>
+<script type="text/javascript" src="js/Libs/jquery.json.js" ></script>
+<!--Mobiscroll -->
+<link rel="stylesheet" href="css/Mobiscroll/mobiscroll.frame.css" />
+<link rel="stylesheet" href="css/Mobiscroll/mobiscroll.frame.android.css" />
+<link rel="stylesheet" href="css/Mobiscroll/mobiscroll.frame.android-holo.css" />
+<link rel="stylesheet" href="css/Mobiscroll/mobiscroll.scroller.css" />
+<link rel="stylesheet" href="css/Mobiscroll/mobiscroll.scroller.android.css" />
+<link rel="stylesheet" href="css/Mobiscroll/mobiscroll.scroller.android-holo.css" />
+<script type="text/javascript" src="js/Mobiscroll/mobiscroll.core.js" ></script>
+<script type="text/javascript" src="js/Mobiscroll/mobiscroll.frame.js" ></script>
+<script type="text/javascript" src="js/Mobiscroll/mobiscroll.scroller.js" ></script>
+<script type="text/javascript" src="js/Mobiscroll/mobiscroll.util.datetime.js" ></script>
+<script type="text/javascript" src="js/Mobiscroll/mobiscroll.datetimebase.js" ></script>
+<script type="text/javascript" src="js/Mobiscroll/mobiscroll.datetime.js" ></script>
+<script type="text/javascript" src="js/Mobiscroll/mobiscroll.frame.android.js" ></script>
+<script type="text/javascript" src="js/Mobiscroll/mobiscroll.frame.android-holo.js" ></script>
+<script type="text/javascript" src="js/Mobiscroll/mobiscroll.i18n.zh.js" ></script>
+<script type="text/javascript" src="js/Libs/swiper-3.3.1.jquery.min.js" ></script>
+<script type="text/javascript" src="js/Addpolicy.js"></script>
+</head>
+<body>
+<div class="wrapper">
+	<header class="header">
+		<a href="#" class="return floatL"></a>
+		<h3 class="floatL Logo">添加保单</h3>
+	</header>
+	<!--添加保单-->
+	<section class="main">
+		<!--按钮-->
+		<div class="anniu " id="regUseBtn">
+			<a href="#" class=" Btnbutton btn regUseCurr">
+				<span class=" icon-19">
+					<i>个险</i>
+				</span>
+			</a>
+			<a href="#" class="Btnbutton btn">
+				<span class="icon-18">
+					<i>团险</i>
+				</span>
+			</a>
+		</div>
+		<!--添加保单-->
+		<div class="swiper-container" id="registerCont">
+			<div class="swiper-wrapper">
+				<!--个险-->
+				<div class="swiper-slide">  
+					<div class="baodanall">
+						<div class="addbaodan">
+							<h3>保单信息</h3>
+						</div>
+						<div class="baodaninfo">
+							<div class="baodan">
+								<label>保单号</label>
+								<input type="text" placeholder="请输入保单号" class="DeInfo_text" />
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--团险-->
+				<div class="swiper-slide">
+					<div class="baodanall">
+						<div class="addbaodan">
+							<h3>团险保单信息</h3>
+						</div>
+						<div class="baodaninfo">
+							<div class="baodan">
+								<label>保单号</label>
+								<input type="text" placeholder="请输入保单号" class="DeInfo_text" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</div>
+</body>
+</html>
